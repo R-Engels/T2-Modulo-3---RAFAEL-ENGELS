@@ -1,0 +1,32 @@
+# Ambiente e variaveis locais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporarios e anotacoes locais
+notas*
+*.tmp
+*.bak
+
+# Materiais de referencia locais da disciplina
+*.pdf
+resumo da video aula sobre o trabalho.txt
+
+# Python e ambientes virtuais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
